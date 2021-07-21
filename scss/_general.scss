@@ -1,0 +1,133 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+$background: #EAEDED;
+
+body {
+    @if ($background == #EAEDED ){
+        background: #EAEDED;
+    } @else if ($background == #FCE5F6){
+         background: #FCE5F6;
+    }
+}
+
+.logo {
+    text-align: center;
+    display: block;
+    a {
+        img {
+            width:200px;
+            height: 200px;
+        }
+    }
+}
+nav{
+    padding: 0 0 1em 0;
+    text-align: center;
+    ul {
+    display: flex;
+    justify-content:center;
+    background-color: #dbcdb9;
+        li {
+        list-style: none;
+        text-align: center;
+        transition: 0.5s;
+        font-size: 18px;
+        .navegador {
+            text-decoration-line: none;
+            color: black;
+            font-family: 'Biryani', sans-serif;
+            list-style-position: outside;
+            margin: 5px;
+            padding: 5px;    
+            display: block;
+              }  
+         }
+     }
+}
+
+#btn-menu {
+    display: none;
+}
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+header label:hover {
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    header label {
+        display: block;
+        margin: 0 0 30px 10px;
+        .icm {
+            margin: 1px;
+        }
+    }
+    nav {
+        position: absolute;
+        width: 50%;
+        margin-left: -70%;
+        transition: all 0.8s;
+        z-index: 1;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        border-top: solid black 1px;
+    }
+    #btn-menu:checked ~ nav {
+        margin: 0;
+    }
+}
+
+ul li:hover {
+     transform: scale(1.1,1.1);
+     border-radius: 1.2rem;
+     background: #ffe4b5;
+}
+//footer//
+.bloque {
+    background-color: #dbcdb9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0 0 0;
+    .bloque__elemento {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        .social  {
+            margin: 1rem 0 0 1rem;
+            padding: 1rem;
+             a img {
+                width:30px;
+                height: 30px;
+                margin-right: 1rem;
+            }
+            
+        }
+        .promo {
+            margin: 1rem;
+            padding: 1rem;
+            .email {
+                padding: 0.5rem;
+                margin-top: 0.3rem;
+            }
+            .boton {
+                padding: 0.5rem 0.5rem;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
+
+
+

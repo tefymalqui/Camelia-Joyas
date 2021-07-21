@@ -1,0 +1,101 @@
+//producto
+
+.contenedorpadre{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 25rem;
+    height: 25rem;
+    }
+    .info {
+           text-align: center;
+           margin: 1em;
+        .btn-1 {
+            position: relative;
+            .btn2 {
+               color: black;
+               background-color: #dbcdb9;
+               position: relative;
+               font-size: 18px;
+               text-decoration: none;
+               margin: 30px 0;
+               padding: 10px 60px;
+           }
+       }
+    }
+}
+
+.btn2:hover {
+    color: black;
+    transition: 0.2s all ease;
+    box-shadow: 0 4px 16px #C49EB9 ;
+}
+
+.contenedorpadre2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    img{
+        width: 25rem;
+        height: 31rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .info {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        .btn-1 {
+            position: relative;
+            .btn2 {
+               color: black;
+               background-color: #dbcdb9;
+               position: relative;
+               font-size: 18px;
+               text-decoration: none;
+               margin: auto;
+               padding: 10px 60px;
+           }
+       }
+     }
+     
+}
+
+.contenedorpadre3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+     img{
+        width: 31rem;
+        height: 32rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .info {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        .btn-1 {
+            position: relative;
+            .btn2 {
+               color: black;
+               background-color: #dbcdb9;
+               position: relative;
+               font-size: 18px;
+               text-decoration: none;
+               margin: auto;
+               padding: 10px 60px;
+           }
+     }
+   }
+}
+

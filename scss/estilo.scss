@@ -1,0 +1,153 @@
+@import "general";
+@import "flex";
+
+@mixin size($m, $p) {
+    margin: $m;
+    padding: $p;
+}
+@mixin tx($txt) {
+    text-align: $txt;
+}
+
+.sizeCarrousel {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.letra {
+    font-family: 'Biryani', sans-serif;
+}
+#section {
+    @include tx(center);
+    @include size(1em, 1em);
+}
+.seccion1 {
+    margin: 10px;
+    padding: 15px;
+    @include tx(center);
+     img {
+        width: 22rem;
+        height: 19rem;
+    }
+}
+
+
+.grillas {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em; 
+    justify-items: center;
+    grid-template-areas: 
+    "prod prod prod";
+    div img {
+        width: 18em;
+        height: 21em;
+    }
+}
+
+.prod {
+    margin: 1em 0 1em 0;
+    grid-area: prod;
+    @include tx(center);
+}
+
+.div1 img {
+    transition: 1s;
+}
+.div1 img:hover {
+     transform: scale(1.1,1.1);
+     border: solid #ffe4b5;
+}
+@media only screen and (max-width:50rem) {
+    body {
+        background: #FCE5F6;
+    }
+    .grillas > * {
+         grid-column-end: span 12;
+    }
+    .grillas {
+        grid-gap: 2rem 0;
+    }
+    .container-fluido {
+        margin-top: 50px;
+        width: 5rem;
+        height: 7rem;
+    }
+}
+
+/* Medidas */
+#medida {
+    margin: 10px;
+    padding: 2px;
+    @include tx(center);
+    p {
+        @include tx(center);
+        margin: 1em 3em 1em 3em;
+    }
+}
+
+/* Servicio */
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    padding: 20px;
+    img {
+        size: inherit;
+    }
+    p {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 1rem;
+     padding-top: 1rem;
+    }
+    hr {
+        background-color: black;
+        height: 5px;
+        width: 60%;
+        margin: 0 5em 0 8em;
+    }
+}
+
+@media only screen and (max-width: 885px) {
+    .grid {
+        background-color: #FCE5F6;
+        grid-template-columns: 1fr;
+    }
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Contacto */
+.titulo {
+    margin: 1em;
+    h2{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.local-contacto {
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
+    img {
+        width: 100%;   
+        height: auto;
+    }
+}
+
+.form {
+    @include size(1em, 1em);
+    border: solid 2px;
+}
+
