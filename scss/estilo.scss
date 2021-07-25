@@ -21,8 +21,9 @@
     @include tx(center);
     @include size(1em, 1em);
 }
-.row iconos img{
+.iconos img{
        float:left;
+       margin: 0 1em 0 0;
 }
 .seccion1 {
     margin: 10px;
