@@ -6,6 +6,11 @@
 body {
   background: #EAEDED; }
 
+.barra-envios {
+  text-align: center;
+  background-color: black;
+  color: white; }
+
 .logo {
   text-align: center;
   display: block; }
@@ -244,6 +249,10 @@ ul li:hover {
     text-align: center;
     margin: 1em 3em 1em 3em; }
 
+.med-anillo img {
+  max-width: 100%;
+  height: auto; }
+
 /* Servicio */
 .grid {
   display: grid;
@@ -282,7 +291,8 @@ ul li:hover {
 
 .row {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .local-contacto {
   width: 550px;
