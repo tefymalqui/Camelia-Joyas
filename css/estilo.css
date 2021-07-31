@@ -107,32 +107,48 @@ ul li:hover {
 .contenedorpadre {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1rem; }
-  .contenedorpadre img {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 25rem;
-    height: 25rem; }
-  .contenedorpadre .info {
-    text-align: center;
-    margin: 1em; }
-    .contenedorpadre .info .btn-1 {
-      position: relative; }
-      .contenedorpadre .info .btn-1 .btn2 {
-        color: black;
-        background-color: #dbcdb9;
-        position: relative;
-        font-size: 18px;
-        text-decoration: none;
-        margin: 30px 0;
-        padding: 10px 60px; }
+  justify-content: center; }
 
-.btn2:hover {
+.card {
+  background: white;
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px; }
+
+.card-image {
+  height: 380px;
+  background-size: cover;
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0; }
+
+.car-1 {
+  background-image: url(../media/pulsi.jpg); }
+
+.car-2 {
+  background-image: url(../media/cub.jpg); }
+
+.car-3 {
+  background-image: url(../media/anillo.jpg); }
+
+.car-4 {
+  background-image: url(../media/3en1.jpg); }
+
+.card a {
+  background-color: #dbcdb9;
   color: black;
-  transition: 0.2s all ease;
-  box-shadow: 0 4px 16px #C49EB9; }
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+  border-radius: 10px; }
+
+.card:hover {
+  background-color: #3e3e3e;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1.5s ease; }
 
 .contenedorpadre2 {
   display: flex;
