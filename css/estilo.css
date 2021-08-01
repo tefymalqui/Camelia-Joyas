@@ -114,6 +114,15 @@ ul li:hover {
   width: 270px;
   margin: 10px;
   border-radius: 15px; }
+  .card a {
+    background-color: #dbcdb9;
+    color: black;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 10px; }
 
 .card-image {
   height: 380px;
@@ -133,15 +142,26 @@ ul li:hover {
 .car-4 {
   background-image: url(../media/3en1.jpg); }
 
-.card a {
-  background-color: #dbcdb9;
-  color: black;
-  padding: 15px 20px;
-  display: block;
-  text-align: center;
-  margin: 20px 50px;
-  text-decoration: none;
-  border-radius: 10px; }
+.car-5 {
+  background-image: url(../media/cc.jpg); }
+
+.car-6 {
+  background-image: url(../media/pira.jpg); }
+
+.car-7 {
+  background-image: url(../media/alas.jpg); }
+
+.car-8 {
+  background-image: url(../media/rolos3.jpg); }
+
+.car-9 {
+  background-image: url(../media/onda.jpg); }
+
+.car-10 {
+  background-image: url(../media/piedritas.jpg); }
+
+.car-11 {
+  background-image: url(../media/pulseras.jpg); }
 
 .card:hover {
   background-color: #3e3e3e;
@@ -150,57 +170,8 @@ ul li:hover {
   transform: scale(1.03);
   transition: all 1.5s ease; }
 
-.contenedorpadre2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 1rem; }
-  .contenedorpadre2 img {
-    width: 25rem;
-    height: 31rem;
-    padding-left: 1rem;
-    padding-right: 1rem; }
-  .contenedorpadre2 .info {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em; }
-    .contenedorpadre2 .info .btn-1 {
-      position: relative; }
-      .contenedorpadre2 .info .btn-1 .btn2 {
-        color: black;
-        background-color: #dbcdb9;
-        position: relative;
-        font-size: 18px;
-        text-decoration: none;
-        margin: auto;
-        padding: 10px 60px; }
-
-.contenedorpadre3 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1rem; }
-  .contenedorpadre3 img {
-    width: 31rem;
-    height: 32rem;
-    padding-left: 1rem;
-    padding-right: 1rem; }
-  .contenedorpadre3 .info {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em; }
-    .contenedorpadre3 .info .btn-1 {
-      position: relative; }
-      .contenedorpadre3 .info .btn-1 .btn2 {
-        color: black;
-        background-color: #dbcdb9;
-        position: relative;
-        font-size: 18px;
-        text-decoration: none;
-        margin: auto;
-        padding: 10px 60px; }
+.letra .dptn {
+  text-align: center; }
 
 .letra {
   font-family: 'Biryani', sans-serif; }

@@ -10,6 +10,16 @@
     width: 270px;
     margin: 10px;
     border-radius: 15px;
+    a {
+        background-color: #dbcdb9;
+        color: black;
+        padding: 15px 20px;
+        display: block;
+        text-align: center;
+        margin: 20px 50px;
+        text-decoration: none;
+        border-radius: 10px;
+    }
 }
 .card-image {
     height: 380px;
@@ -29,17 +39,28 @@
 .car-4 {
     background-image: url(../media/3en1.jpg);
 }
-
-.card a {
-    background-color: #dbcdb9;
-    color: black;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-    border-radius: 10px;
+.car-5 {
+    background-image: url(../media/cc.jpg);
 }
+.car-6 {
+    background-image: url(../media/pira.jpg);
+}
+.car-7 {
+    background-image: url(../media/alas.jpg);
+}
+.car-8 {
+    background-image: url(../media/rolos3.jpg);
+}
+.car-9 {
+    background-image: url(../media/onda.jpg);
+}
+.car-10 {
+    background-image: url(../media/piedritas.jpg);
+}
+.car-11 {
+    background-image: url(../media/pulseras.jpg);
+}
+
 .card:hover {
     background-color: rgb(62, 62, 62);
     color: white;
@@ -47,67 +68,6 @@
     transform: scale(1.03);
     transition: all 1.5s ease;
 }
-
-.contenedorpadre2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 1rem;
-    img{
-        width: 25rem;
-        height: 31rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .info {
-        text-align: center;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        .btn-1 {
-            position: relative;
-            .btn2 {
-               color: black;
-               background-color: #dbcdb9;
-               position: relative;
-               font-size: 18px;
-               text-decoration: none;
-               margin: auto;
-               padding: 10px 60px;
-           }
-       }
-     }
-     
+.letra .dptn {
+    text-align: center;
 }
-
-.contenedorpadre3 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 1rem;
-     img{
-        width: 31rem;
-        height: 32rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .info {
-        text-align: center;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        .btn-1 {
-            position: relative;
-            .btn2 {
-               color: black;
-               background-color: #dbcdb9;
-               position: relative;
-               font-size: 18px;
-               text-decoration: none;
-               margin: auto;
-               padding: 10px 60px;
-           }
-     }
-   }
-}
-
