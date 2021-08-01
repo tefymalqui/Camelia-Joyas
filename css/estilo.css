@@ -217,7 +217,7 @@ ul li:hover {
 
 @media only screen and (max-width: 50rem) {
   body {
-    background: #FCE5F6; }
+    background-image: url(../media/stone-floor-texture.jpg); }
   .grillas > * {
     grid-column-end: span 12; }
   .grillas {
