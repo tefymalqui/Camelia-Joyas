@@ -7,25 +7,25 @@
 }
 .card {
     background: white;
-    width: 270px;
-    margin: 10px;
-    border-radius: 15px;
+    width: 17rem;
+    margin: 0.6rem;
+    border-radius: 1rem;
     a {
         background-color: #dbcdb9;
         color: black;
-        padding: 15px 20px;
+        padding: 1rem 1.25rem;
         display: block;
         text-align: center;
-        margin: 20px 50px;
+        margin: 1.25rem 3rem;
         text-decoration: none;
-        border-radius: 10px;
+        border-radius: 0.5rem;
     }
 }
 .card-image {
-    height: 380px;
+    height: 22rem;
     background-size: cover;
-    margin-bottom: 15px;
-    border-radius: 15px 15px 0 0;
+    margin-bottom: 1rem;
+    border-radius: 1rem 1rem 0 0;
 }
 .car-1 {
     background-image: url(../media/pulsi.jpg);
