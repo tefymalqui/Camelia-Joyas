@@ -111,6 +111,9 @@ ul li:hover {
         .social  {
             margin: 1rem 0 0 1rem;
             padding: 1rem;
+             a {
+                 text-decoration: none;
+             }
              a img {
                 width:30px;
                 height: 30px;

@@ -90,6 +90,8 @@ ul li:hover {
     .bloque .bloque__elemento .social {
       margin: 1rem 0 0 1rem;
       padding: 1rem; }
+      .bloque .bloque__elemento .social a {
+        text-decoration: none; }
       .bloque .bloque__elemento .social a img {
         width: 30px;
         height: 30px;
