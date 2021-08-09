@@ -118,6 +118,7 @@ ul li:hover {
                 width:30px;
                 height: 30px;
                 margin-right: 1rem;
+                transition: all 1.2s ease;
             }
             
         }
@@ -136,5 +137,10 @@ ul li:hover {
     }
 }
 
+.bloque .bloque__elemento .social a img:hover {
+    
+    transform: scale(1.3);
+}
+    
 
 

@@ -95,7 +95,8 @@ ul li:hover {
       .bloque .bloque__elemento .social a img {
         width: 30px;
         height: 30px;
-        margin-right: 1rem; }
+        margin-right: 1rem;
+        transition: all 1.2s ease; }
     .bloque .bloque__elemento .promo {
       margin: 1rem;
       padding: 1rem; }
@@ -105,6 +106,9 @@ ul li:hover {
       .bloque .bloque__elemento .promo .boton {
         padding: 0.5rem 0.5rem;
         margin-top: 0.5rem; }
+
+.bloque .bloque__elemento .social a img:hover {
+  transform: scale(1.3); }
 
 .contenedorpadre {
   display: flex;
