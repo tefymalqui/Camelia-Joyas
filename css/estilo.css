@@ -84,12 +84,18 @@ ul li:hover {
   .bloque .bloque__elemento {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
     width: 100%; }
     .bloque .bloque__elemento .ctg {
       margin: 1em;
       padding: 1em; }
+      .bloque .bloque__elemento .ctg ul li {
+        list-style: none; }
+      .bloque .bloque__elemento .ctg ul .ngd {
+        text-decoration-line: none;
+        color: black;
+        font-family: 'Biryani', sans-serif;
+        margin: 5px; }
     .bloque .bloque__elemento .social {
       margin: 1rem 0 0 0;
       padding: 1rem; }

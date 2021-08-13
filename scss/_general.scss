@@ -110,11 +110,21 @@ ul li:hover {
     .bloque__elemento {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         justify-content: space-around;
         width: 100%;
         .ctg {
             @include size(1em, 1em);
+            ul {
+                li {
+                    list-style: none;
+                }
+                .ngd {
+                    text-decoration-line: none;
+                    color: black;
+                    font-family: 'Biryani', sans-serif;
+                    margin: 5px;
+                }
+            }
         }
         .social  {
             margin: 1rem 0 0 0;
