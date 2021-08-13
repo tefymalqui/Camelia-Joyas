@@ -87,8 +87,11 @@ ul li:hover {
     align-items: center;
     justify-content: space-around;
     width: 100%; }
+    .bloque .bloque__elemento .ctg {
+      margin: 1em;
+      padding: 1em; }
     .bloque .bloque__elemento .social {
-      margin: 1rem 0 0 1rem;
+      margin: 1rem 0 0 0;
       padding: 1rem; }
       .bloque .bloque__elemento .social a {
         text-decoration: none; }
@@ -98,8 +101,8 @@ ul li:hover {
         margin-right: 1rem;
         transition: all 1.2s ease; }
     .bloque .bloque__elemento .promo {
-      margin: 1rem;
-      padding: 1rem; }
+      margin: 1em;
+      padding: 1em; }
       .bloque .bloque__elemento .promo .email {
         padding: 0.5rem;
         margin-top: 0.3rem; }

@@ -5,6 +5,11 @@
 }
 $background: #EAEDED;
 
+@mixin size($m, $p) {
+    margin: $m;
+    padding: $p;
+}
+
 body {
     @if ($background == #EAEDED ){
         background: #EAEDED;
@@ -108,8 +113,11 @@ ul li:hover {
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        .ctg {
+            @include size(1em, 1em);
+        }
         .social  {
-            margin: 1rem 0 0 1rem;
+            margin: 1rem 0 0 0;
             padding: 1rem;
              a {
                  text-decoration: none;
@@ -123,8 +131,7 @@ ul li:hover {
             
         }
         .promo {
-            margin: 1rem;
-            padding: 1rem;
+            @include size(1em, 1em);
             .email {
                 padding: 0.5rem;
                 margin-top: 0.3rem;
@@ -141,6 +148,7 @@ ul li:hover {
     
     transform: scale(1.3);
 }
+
     
 
 
