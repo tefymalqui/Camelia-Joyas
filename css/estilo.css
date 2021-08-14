@@ -275,7 +275,6 @@ nav ul li:hover {
 
 @media only screen and (max-width: 50rem) {
   .grid {
-    background-color: #FCE5F6;
     grid-template-columns: 1fr; } }
 
 .responsive {
@@ -297,7 +296,6 @@ nav ul li:hover {
 .local-contacto img {
   width: 25px;
   height: 25px;
-  float: left;
   margin: 0 0.2rem; }
 
 .local-contacto ul li {
