@@ -58,9 +58,6 @@
      border: solid #ffe4b5;
 }
 @media only screen and (max-width:50rem) {
-    body {
-        background-image: url(../media/stone-floor-texture.jpg);
-    }
     .grillas > * {
          grid-column-end: span 12;
     }
@@ -139,14 +136,20 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.local-contacto {
-    width: 550px;
-    height: 300px;
-    overflow: hidden;
-    img {
-        width: 100%;   
-        height: auto;
-    }
+
+.local-contacto img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 0 0.2rem;
+}
+.local-contacto ul li {
+    list-style: none;
+    margin: 1rem 0 0 0;
+}
+.local-contacto ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 .form {
