@@ -88,7 +88,7 @@ header label:hover {
         flex-direction: column;
     }
     nav ul li {
-        border-top: solid black 1px;
+        border-left: solid black 1px;
     }
     #btn-menu:checked ~ nav {
         margin: 0;
@@ -97,7 +97,7 @@ header label:hover {
 
 nav ul li:hover {
      transform: scale(1.1,1.1);
-     border-radius: 1.2rem;
+     border-radius: 0.6rem;
      background: #ffe4b5;
 }
 //footer//

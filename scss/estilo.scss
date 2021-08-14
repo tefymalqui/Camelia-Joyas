@@ -31,45 +31,48 @@
 }
 
 
-.grillas {
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+  }
+  
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1em; 
-    justify-items: center;
-    grid-template-areas: 
-    "prod prod prod";
-    div img {
-        width: 18em;
-        height: 21em;
-    }
-}
-
-.prod {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
+  
+ .prod {
     margin: 1em 0 1em 0;
-    grid-area: prod;
     @include tx(center);
 }
 
-.div1 img {
-    transition: 1s;
-}
-.div1 img:hover {
-     transform: scale(1.1,1.1);
-     border: solid #ffe4b5;
-}
-@media only screen and (max-width:50rem) {
-    .grillas > * {
-         grid-column-end: span 12;
+  @media (min-width: 600px) {
+   .tall {
+      grid-row: span 2;
     }
-    .grillas {
-        grid-gap: 2rem 0;
-    }
-    .container-fluido {
-        margin-top: 50px;
-        width: 5rem;
-        height: 7rem;
-    }
+  }
+
+.prod {
+    margin: 1em 0 1em 0;
+    @include tx(center);
 }
+
 
 /* Medidas */
 #medida {
